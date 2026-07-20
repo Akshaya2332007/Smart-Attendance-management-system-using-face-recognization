@@ -119,14 +119,19 @@ http://127.0.0.1:5000
 ---
 
 ## 📸 Screenshots
+## 📸 Screenshots
 
-- Login Page
-- Student Registration
-- Face Recognition
-- Attendance Dashboard
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-*(Add screenshots here later.)*
+### Student Registration
+![Registration](screenshots/register.png)
 
+### Face Recognition
+![Face Recognition](screenshots/face-recognition.png)
+
+### Attendance Report
+![Attendance Report](screenshots/attendance-report.png)
 ---
 
 ## 📊 Future Enhancements
