@@ -1,12 +1,12 @@
 # 🎓 Smart Attendance Management System using Face Recognition
 
-A Smart Attendance Management System that uses **Face Recognition** and **Blink Detection** to automatically mark student attendance. The system prevents photo spoofing by verifying that the user blinks before attendance is recorded.
+A Smart AI-based Attendance Management System that uses **Face Recognition** and **Blink Detection** to automatically mark attendance while preventing spoofing attacks.
 
 ---
 
-## 📌 Project Overview
+## 📖 Project Overview
 
-This project automates attendance management by recognizing a student's face through a webcam and verifying liveness using blink detection. Once verified, the student's attendance is stored in the database and can be exported as an Excel report.
+This project automates student attendance using Artificial Intelligence. The system captures a student's face, verifies liveness using blink detection, recognizes the student, and stores attendance records in an SQLite database. Attendance reports can also be exported to Excel.
 
 ---
 
@@ -15,27 +15,28 @@ This project automates attendance management by recognizing a student's face thr
 - 👤 Student Registration
 - 📷 Face Image Capture
 - 🧠 Face Recognition using OpenCV
-- 👁️ Blink Detection for Liveness Verification
+- 👁️ Blink Detection (Liveness Detection)
 - ✅ Automatic Attendance Marking
-- 🗄️ SQLite Database Integration
-- 📊 Attendance Report Generation (Excel)
-- 🌐 User-Friendly Flask Web Interface
+- 📊 Dashboard with Attendance Statistics
+- 📑 Attendance Report Generation (Excel)
+- 🗄️ SQLite Database
+- 🌐 Flask Web Application
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Python
-- Flask
-- OpenCV
-- MediaPipe
-- SQLite
-- HTML
-- CSS
-- JavaScript
-- OpenPyXL
-- NumPy
-- Pickle
+| Technology | Purpose |
+|------------|---------|
+| Python | Backend Programming |
+| Flask | Web Framework |
+| OpenCV | Face Recognition |
+| MediaPipe | Blink Detection |
+| SQLite | Database |
+| HTML/CSS | Frontend |
+| JavaScript | Client-side Functionality |
+| OpenPyXL | Excel Report Generation |
+| NumPy | Numerical Operations |
 
 ---
 
@@ -45,25 +46,18 @@ This project automates attendance management by recognizing a student's face thr
 Smart-Attendance-System/
 │
 ├── backend/
-│   ├── face_capture.py
-│   ├── recognize_face.py
-│   ├── train_model.py
-│   ├── blink_detector.py
-│   └── voice.py
-│
 ├── database/
-│
 ├── dataset/
-│
+├── exports/
 ├── models/
-│
+├── reports/
+├── screenshots/
 ├── static/
-│
 ├── templates/
 │
 ├── app.py
-├── config.py
 ├── database.py
+├── config.py
 ├── requirements.txt
 └── README.md
 ```
@@ -72,25 +66,25 @@ Smart-Attendance-System/
 
 ## ⚙️ Installation
 
-### Clone the Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/Akshaya2332007/Smart-Attendance-management-system-using-face-recognization.git
 ```
 
-### Move into the project
+### Go to Project Folder
 
 ```bash
 cd Smart-Attendance-management-system-using-face-recognization
 ```
 
-### Create a virtual environment
+### Create Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
-### Activate the virtual environment
+### Activate Virtual Environment
 
 Windows
 
@@ -98,19 +92,19 @@ Windows
 .venv\Scripts\activate
 ```
 
-### Install dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the project
+### Run the Project
 
 ```bash
 python app.py
 ```
 
-Open your browser and visit:
+Open your browser:
 
 ```
 http://127.0.0.1:5000
@@ -118,30 +112,40 @@ http://127.0.0.1:5000
 
 ---
 
-## 📸 Screenshots
-## 📸 Screenshots
+# 📸 Screenshots
 
 ### Dashboard
+
 ![Dashboard](screenshots/dashboard.png)
 
-### Student Registration
-![Registration](screenshots/register.png)
-
-### Face Recognition
-![Face Recognition](screenshots/face-recognition.png)
-
-### Attendance Report
-![Attendance Report](screenshots/attendance-report.png)
 ---
 
-## 📊 Future Enhancements
+### Student Registration
 
-- Email Attendance Report
-- Admin Dashboard
+![Registration](screenshots/register.png)
+
+---
+
+### Face Recognition
+
+![Face Recognition](screenshots/face-recognition.png)
+
+---
+
+### Attendance Report
+
+![Attendance Report](screenshots/attendance-report.png)
+
+---
+
+## 🚀 Future Enhancements
+
+- Email Attendance Reports
 - Cloud Database
-- QR Code Attendance
 - Mobile Application
+- QR Code Attendance
 - Multi-Face Recognition
+- Face Mask Detection
 
 ---
 
@@ -155,6 +159,6 @@ GitHub: https://github.com/Akshaya2332007
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Please give this repository a ⭐ on GitHub.
+If you found this project helpful, please consider giving it a ⭐ on GitHub!
